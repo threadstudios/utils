@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@threadws/eslint-config-thread": "^1.0.0"
+  }
+}

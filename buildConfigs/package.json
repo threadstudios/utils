@@ -1,0 +1,7 @@
+{
+  "name": "@threadws/build-config",
+  "version": "0.1.0",
+  "description": "shared build configs for thread projects",
+  "main": "index.js",
+  "license": "MIT"
+}
