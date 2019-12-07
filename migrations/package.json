@@ -1,0 +1,20 @@
+{
+  "name": "@threadws/migrations",
+  "version": "0.1.0",
+  "description": "A migration creator/runner",
+  "main": "index.js",
+  "author": "Paul Westerdale <paul@threadstud.io>",
+  "license": "MIT",
+  "bin": {
+    "migrate": "./index.js"
+  },
+  "dependencies": {
+    "@threadws/eslint-config-thread": "^1.0.0",
+    "@threadws/logger": "^0.1.2",
+    "@threadws/redis": "^0.1.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0"
+  }
+}
