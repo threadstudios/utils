@@ -1,6 +1,6 @@
 {
   "name": "@threadws/exceptions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "@threadws/logger": "^0.1.3"
+    "@threadws/logger": "^0.1.4"
   }
 }
