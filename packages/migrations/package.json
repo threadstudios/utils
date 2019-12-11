@@ -16,5 +16,8 @@
     "commander": "^4.0.1",
     "dotenv": "^8.2.0",
     "fs-extra": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

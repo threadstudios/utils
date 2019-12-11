@@ -14,5 +14,8 @@
     "jest": "^24.9.0",
     "relaxed-json": "^1.0.3",
     "std-mocks": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
