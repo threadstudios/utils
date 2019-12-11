@@ -1,5 +1,7 @@
 {
   "devDependencies": {
-    "@threadws/eslint-config-thread": "^1.0.0"
-  }
+    "@threadws/eslint-config-thread": "^1.0.0",
+    "lerna": "^3.19.0"
+  },
+  "name": "utils"
 }
