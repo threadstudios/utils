@@ -1,6 +1,6 @@
 {
   "name": "@threadws/mailer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "e-mail sending wrapper",
   "main": "index.js",
   "license": "MIT",

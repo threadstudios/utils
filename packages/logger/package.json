@@ -3,7 +3,7 @@
     "winston": "^3.2.1"
   },
   "name": "@threadws/logger",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A wrapper for winston",
   "main": "index.js",
   "license": "MIT",
