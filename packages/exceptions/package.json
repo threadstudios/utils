@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "std-mocks": "^1.0.1"
   },
   "dependencies": {
     "@threadws/logger": "^0.1.4"
