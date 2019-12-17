@@ -1,13 +1,13 @@
-const { APIException } = require("../index");
+const { AppError } = require("../index");
 
 test("Api Exception", () => {
   try {
-    throw new APIException({
+    throw new AppError({
       message: "An error occurred whilst validating your user",
       code: 422
     });
   } catch (e) {
-    expect(e instanceof APIException).toEqual(true);
+    expect(e instanceof AppError).toEqual(true);
     expect(e.statusCode).toEqual(422);
   }
 });

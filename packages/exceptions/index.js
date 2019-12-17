@@ -1,7 +1,8 @@
 const AppException = require("./src/AppException");
+const AppError = require("./src/AppError");
 
 function mapExceptionToResponse(exception) {
-  if (exception instanceof AppException) {
+  if (exception instanceof AppError || exception instanceof AppException) {
     return {
       status: exception.statusCode,
       message: exception.message,
@@ -16,5 +17,6 @@ function mapExceptionToResponse(exception) {
 
 module.exports = {
   AppException,
+  AppError,
   mapExceptionToResponse
 };

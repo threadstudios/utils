@@ -1,8 +1,8 @@
-const { mapExceptionToResponse, APIException } = require("../index");
+const { mapExceptionToResponse, AppError } = require("../index");
 
 test("Handles an Api exception correctly", () => {
   try {
-    throw new APIException({
+    throw new AppError({
       message: "A Teapot Happended",
       code: 418
     });
