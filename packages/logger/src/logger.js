@@ -21,9 +21,9 @@ module.exports = (level = defaultLevel) => {
         ? combine(
             timestamp(),
             printf(info => {
-              return `${info.timestamp} ${info.level}: ${
-                info.message
-              } ${info.detail && JSON.stringify(info.detail, null, 2)}`;
+              return `${info.timestamp} ${info.level}: ${info.message} ${
+                info.detail ? JSON.stringify(info.detail, null, 2) : ""
+              }`;
             })
           )
         : combine(timestamp(), prettyPrint()),
