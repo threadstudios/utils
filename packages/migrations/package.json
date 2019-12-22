@@ -1,6 +1,6 @@
 {
   "name": "@threadws/migrations",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A migration creator/runner",
   "main": "index.js",
   "author": "Paul Westerdale <paul@threadstud.io>",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@threadws/eslint-config-thread": "^1.0.0",
-    "@threadws/logger": "^0.1.5",
+    "@threadws/logger": "^0.1.6",
     "@threadws/redis": "^0.1.3",
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
