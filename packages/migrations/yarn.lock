@@ -40,10 +40,10 @@
     eslint-plugin-react-hooks "^1.7.0"
     prettier "^1.18.2"
 
-"@threadws/logger@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.2.tgz#2e388e650a74213ecbae39afd188008e80c39bf9"
-  integrity sha512-4F2T4Hu7z+t8O0iQx9PlzV4wrQgi/oQKIsWlROnx3o5WTVJQjnsP9thxcoe5BIX20GJOWbeiktCujR2A+qYIdQ==
+"@threadws/logger@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.5.tgz#e639c2d80f28cfb2cef4ee5c138e3ee8341cc8a7"
+  integrity sha512-fO65ASWhDx6mf1hsa7ytFQEvVzVCmt+xwxEQG/Og5jc3F7b/Og2LaoB4aAXXPtkmGRhVDAGH9RDpjmC8OOjJ7g==
   dependencies:
     winston "^3.2.1"
 
