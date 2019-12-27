@@ -6,5 +6,9 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^2.8.1"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "690406a76b6eb70d17f07e3bf67d758a7b241ae5"
 }
