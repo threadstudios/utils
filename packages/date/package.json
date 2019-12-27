@@ -1,0 +1,10 @@
+{
+  "name": "@threadws/date",
+  "version": "0.1.0",
+  "description": "Wrapper and helpers around date-fns",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.8.1"
+  }
+}

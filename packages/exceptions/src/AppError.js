@@ -7,7 +7,7 @@ class AppError extends Error {
     this.statusCode = obj.code || 500;
     this.details = obj.details || false;
     Error.captureStackTrace(this, this.constructor);
-    logger.error(obj.message, {
+    logger.info(obj.message, {
       detail: { ...obj.details, code: obj.code, stack: obj.stack }
     });
   }
