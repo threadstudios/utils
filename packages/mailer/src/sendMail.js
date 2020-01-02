@@ -23,12 +23,15 @@ module.exports = mailOptions => {
       to: toSend.to,
       message: message.toString("ascii")
     };
-
-    mailer.messages().sendMime(dataToSend, (sendError, body) => {
-      if (sendError) {
-        throw new Error(sendError.message);
-      }
-      return Promise.resolve(body);
-    });
+    if (process.env.NODE_ENV !== "test") {
+      mailer.messages().sendMime(dataToSend, (sendError, body) => {
+        if (sendError) {
+          throw new Error(sendError.message);
+        }
+        return Promise.resolve(body);
+      });
+    } else {
+      return Promise.resolve(mailOptions);
+    }
   });
 };
