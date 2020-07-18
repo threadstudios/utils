@@ -286,10 +286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@threadws/logger@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.2.tgz#2e388e650a74213ecbae39afd188008e80c39bf9"
-  integrity sha512-4F2T4Hu7z+t8O0iQx9PlzV4wrQgi/oQKIsWlROnx3o5WTVJQjnsP9thxcoe5BIX20GJOWbeiktCujR2A+qYIdQ==
+"@threadws/logger@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
+  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
   dependencies:
     winston "^3.2.1"
 
@@ -2228,9 +2228,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 logform@^2.1.1:
   version "2.1.2"
