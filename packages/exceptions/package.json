@@ -1,6 +1,6 @@
 {
   "name": "@threadws/exceptions",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "std-mocks": "^1.0.1"
   },
   "dependencies": {
-    "@threadws/logger": "^0.1.6"
+    "@threadws/logger": "^0.1.7"
   },
   "publishConfig": {
     "access": "public"
