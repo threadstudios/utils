@@ -1,6 +1,6 @@
 {
   "name": "@threadws/migrations",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A migration creator/runner",
   "main": "index.js",
   "author": "Paul Westerdale <paul@threadstud.io>",
