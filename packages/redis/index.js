@@ -2,8 +2,8 @@ const Redis = require('ioredis')
 const logger = require('@threadws/logger')
 
 if (
-  (!process.env.REDIS_CONNECTION_STRING ||
-  process.env.REDIS_CONNECTION_STRING = '')
+  !process.env.REDIS_CONNECTION_STRING ||
+  process.env.REDIS_CONNECTION_STRING === ''
 ) {
   throw new Error('No redis connection string has been supplied')
 }
