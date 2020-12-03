@@ -1,37 +1,15 @@
-const mailgun = require("mailgun-js");
-const nunjucks = require("nunjucks");
-const MailComposer = require("nodemailer/lib/mail-composer");
+const MailgunSDK = require('mailgun-js-sdk')
 
 ["MAILGUN_KEY", "MAILGUN_DOMAIN"].forEach(reqVar => {
   if (!process.env[reqVar])
     throw new Error(`${reqVar} must be present in .env`);
 });
 
-const mailer = mailgun({
+const Mailgun = new MailgunSDK({
   apiKey: process.env.MAILGUN_KEY,
-  domain: process.env.MAILGUN_DOMAIN
-});
+  baseUrl: process.env.MAILGUN_BASE_URL || 'https://api.eu.mailgun.net/v3/',
+})
 
-module.exports = mailOptions => {
-  const toSend = {
-    ...mailOptions,
-    html: nunjucks.render(mailOptions.template, mailOptions.variables)
-  };
-  const mail = new MailComposer(toSend);
-  return mail.compile().build((err, message) => {
-    const dataToSend = {
-      to: toSend.to,
-      message: message.toString("ascii")
-    };
-    if (process.env.NODE_ENV !== "test") {
-      mailer.messages().sendMime(dataToSend, (sendError, body) => {
-        if (sendError) {
-          throw new Error(sendError.message);
-        }
-        return Promise.resolve(body);
-      });
-    } else {
-      return Promise.resolve(mailOptions);
-    }
-  });
-};
+module.exports = async (data) => {
+  return await Mailgun.sendMessage(process.env.MAILGUN_DOMAIN, data)
+}
