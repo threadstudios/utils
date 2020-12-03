@@ -12,6 +12,7 @@ program.command('make <name>').action(name => {
   fs.ensureDirSync(`${appPath}/migrations`)
   const filename = [Date.now(), name].join('.')
   fs.writeFileSync(`${appPath}/migrations/${filename}.js`, template)
+  process.exit();
 })
 
 program.command('run').action(async () => {
