@@ -1,4 +1,4 @@
-const MailgunSDK = require('mailgun-js-sdk')
+const MailgunSDK = require("mailgun-js-sdk");
 
 ["MAILGUN_KEY", "MAILGUN_DOMAIN"].forEach(reqVar => {
   if (!process.env[reqVar])
@@ -7,9 +7,9 @@ const MailgunSDK = require('mailgun-js-sdk')
 
 const Mailgun = new MailgunSDK({
   apiKey: process.env.MAILGUN_KEY,
-  baseUrl: process.env.MAILGUN_BASE_URL || 'https://api.eu.mailgun.net/v3/',
-})
+  baseUrl: process.env.MAILGUN_BASE_URL || "https://api.eu.mailgun.net/v3/"
+});
 
-module.exports = async (data) => {
-  return await Mailgun.sendMessage(process.env.MAILGUN_DOMAIN, data)
-}
+module.exports = async data => {
+  return Mailgun.sendMessage(process.env.MAILGUN_DOMAIN, data);
+};
