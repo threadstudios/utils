@@ -1,6 +1,6 @@
 const MailgunSDK = require("mailgun-js-sdk");
 
-["MAILGUN_KEY", "MAILGUN_DOMAIN"].forEach(reqVar => {
+["MAILGUN_KEY"].forEach(reqVar => {
   if (!process.env[reqVar])
     throw new Error(`${reqVar} must be present in .env`);
 });
