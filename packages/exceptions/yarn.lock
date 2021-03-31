@@ -286,10 +286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@threadws/logger@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
-  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
+"@threadws/logger@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.7.tgz#82f8a97fd3106695f83d92e38889da96f6d93863"
+  integrity sha512-Qar1b6zu5jnOv3NlUYJfuV0IS5MJvZUYwjBy2uZGXFprYyn8YaM734Wzk6SOP6kS22XZZV2MIyxp48P0WSsIhg==
   dependencies:
     winston "^3.2.1"
 
@@ -3679,9 +3679,9 @@ xml-name-validator@^3.0.0:
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^3.0.0, yallist@^3.0.3:
   version "3.1.1"
