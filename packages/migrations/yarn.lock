@@ -40,18 +40,19 @@
     eslint-plugin-react-hooks "^1.7.0"
     prettier "^1.18.2"
 
-"@threadws/logger@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
-  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
+"@threadws/logger@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.7.tgz#82f8a97fd3106695f83d92e38889da96f6d93863"
+  integrity sha512-Qar1b6zu5jnOv3NlUYJfuV0IS5MJvZUYwjBy2uZGXFprYyn8YaM734Wzk6SOP6kS22XZZV2MIyxp48P0WSsIhg==
   dependencies:
     winston "^3.2.1"
 
-"@threadws/redis@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@threadws/redis/-/redis-0.1.3.tgz#5c3a061997e849f7a4c43a81369b1020afb3cd11"
-  integrity sha512-pzZGw7xw/UKF16zy0624T45WC9STHgFy/dT2g8ADFy9L2bNLfoLJOWRWX9+JS5OoRjTo0FHhJwltDEQ3wDZQww==
+"@threadws/redis@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@threadws/redis/-/redis-0.1.8.tgz#2d9472834ca21d2092720f19d6013ace290aef8c"
+  integrity sha512-xCStXnQHbv5uHCBPr8Gw+RZ3RjIgz96WBRDns4DHWnl6g1s+wUc4FQBOmutT6c9iL9hrsOFT9Qhxgc1uh17VPw==
   dependencies:
+    "@threadws/logger" "^0.1.7"
     ioredis "^4.14.1"
 
 "@types/color-name@^1.1.1":
@@ -1035,9 +1036,9 @@ lodash.flatten@^4.4.0:
   integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
 
 lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 logform@^2.1.1:
   version "2.1.2"
