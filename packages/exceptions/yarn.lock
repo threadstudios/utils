@@ -286,10 +286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@threadws/logger@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
-  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
+"@threadws/logger@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.7.tgz#82f8a97fd3106695f83d92e38889da96f6d93863"
+  integrity sha512-Qar1b6zu5jnOv3NlUYJfuV0IS5MJvZUYwjBy2uZGXFprYyn8YaM734Wzk6SOP6kS22XZZV2MIyxp48P0WSsIhg==
   dependencies:
     winston "^3.2.1"
 
@@ -3383,9 +3383,9 @@ throat@^4.0.0:
   integrity sha1-iQN8vJLFarGJJua6TLsgDhVnKmo=
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
