@@ -286,10 +286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@threadws/logger@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
-  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
+"@threadws/logger@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.7.tgz#82f8a97fd3106695f83d92e38889da96f6d93863"
+  integrity sha512-Qar1b6zu5jnOv3NlUYJfuV0IS5MJvZUYwjBy2uZGXFprYyn8YaM734Wzk6SOP6kS22XZZV2MIyxp48P0WSsIhg==
   dependencies:
     winston "^3.2.1"
 
@@ -3526,10 +3526,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-12.1.0.tgz#a3a7315d5238cbc15e46ad8d5e479aafa7119925"
-  integrity sha512-gIC2RBuFRi574Rb9vewGCJ7TCLxHXNx6EKthEgs+Iz0pYa9a9Te1VLG/bGLsAyGWrqR5FfR7tbFUI7FEF2LiGA==
+validator@^13.7.0:
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
+  integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
 
 verror@1.10.0:
   version "1.10.0"
