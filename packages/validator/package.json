@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@threadws/logger": "^0.1.7",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "publishConfig": {
     "access": "public"
