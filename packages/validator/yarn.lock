@@ -286,10 +286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@threadws/logger@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.6.tgz#3f7d2da7e039867f576cd50409d164727118517b"
-  integrity sha512-duQKNCAyzHdIrl+sC1pTlVNo72R8XvrnftLLoiWuBndmXefj5hMOsl+aQrItz7YTS0W85MVZWao8MCBOCPPcaQ==
+"@threadws/logger@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@threadws/logger/-/logger-0.1.7.tgz#82f8a97fd3106695f83d92e38889da96f6d93863"
+  integrity sha512-Qar1b6zu5jnOv3NlUYJfuV0IS5MJvZUYwjBy2uZGXFprYyn8YaM734Wzk6SOP6kS22XZZV2MIyxp48P0WSsIhg==
   dependencies:
     winston "^3.2.1"
 
@@ -2796,9 +2796,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 rc@^1.2.7:
   version "1.2.8"
